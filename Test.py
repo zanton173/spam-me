@@ -75,8 +75,8 @@ try:
 
 
 	def printSpam():
-		#for i in range(10069):
-			#f = open('we are number 1 ' + str(i) + '.txt', 'w+')
+		for i in range(10069):
+			f = open('we are number 1 ' + str(i) + '.txt', 'w+')
 		tk.messagebox.showinfo("Spam Successful!", "sent, " + numOfMessagesEntry.get() + " messages saying " + sendMessage.get("1.0", 'end-1c') + " to: " + sendToEmail.get())
 
 	# All spam elements
