@@ -1,0 +1,1 @@
+@pyw c:\users\zanton-pc\documents\py algo bot\PyGui.py %*
